@@ -23,7 +23,7 @@ TEMPLATE_DIR = Path.joinpath(BASE_DIR, 'cloneApp/templates/cloneApp')
 SECRET_KEY = 'django-insecure-g=yk*^b%3fq0sti(kwvr754x6_6^%*siom%0m%5a4-+kwc59ad'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['.vercel.app']
 
