@@ -14,7 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-TEMPLATE_DIR = Path.joinpath(BASE_DIR,'cloneApp/templates/cloneApp')
+TEMPLATE_DIR = Path.joinpath(BASE_DIR, 'cloneApp/templates/cloneApp')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-g=yk*^b%3fq0sti(kwvr754x6_6^%*siom%0m%5a4-+kwc59ad
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -117,7 +117,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = Path.joinpath(BASE_DIR,'static')
+STATIC_ROOT = Path.joinpath(BASE_DIR, 'static')
 
 LOGIN_REDIRECT_URL = '/'
 
