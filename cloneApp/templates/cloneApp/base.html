@@ -56,9 +56,10 @@
           </li>
           {% else %}
           <li>
-            <a class="nav navbar-right" href="{% url 'login' %}"
-              ><span class="glyphicon glyphicon-user"></span
-            ></a>
+            <a class="nav navbar-right" href="{% url 'login' %}">Login</a>
+          </li>
+          <li>
+            <a class="nav navbar-right" href="{% url 'signup' %}">Sign Up</a>
           </li>
           {% endif %}
         </ul>
